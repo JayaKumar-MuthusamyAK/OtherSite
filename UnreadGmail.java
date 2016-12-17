@@ -27,7 +27,7 @@ public class UnreadGmail {
 		driver.findElement(By.xpath("//*[@id='Email']")).sendKeys("jakay507@gmail.com");
 		driver.findElement(By.xpath("//*[@id='Email']")).sendKeys(Keys.ENTER);
 		
-		driver.findElement(By.xpath("//*[@id='Passwd']")).sendKeys("bullet07@");
+		driver.findElement(By.xpath("//*[@id='Passwd']")).sendKeys("***********");
 		driver.findElement(By.xpath("//*[@id='Passwd']")).sendKeys(Keys.ENTER);
 		
 		List<WebElement> list_ofMsgs= driver.findElements(By.xpath("//*[@class='yW']/span"));
